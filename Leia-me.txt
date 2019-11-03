@@ -1,0 +1,16 @@
+Aplicativo web, composto apenas de html, css e JavaScript.
+
+Lista de filmes com as seguintes funcionalidades principais: 
+
+- Listar filmes cadastrados
+- Adicionar, editar e remover filmes
+
+Os cadastros devem conter obrigatoriamente:
+- Nome, 
+- resumo, 
+- nota e 
+- data de lançamento
+
+(Neste código não há a possibilidade de salvar - LocalStorage por exemplo)
+
+

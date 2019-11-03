@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+  <head>
+    <title>Salvador Movies  pp</title> <!-- Título da página no navegador -->
+    <meta charset="utf-8">
+    <script src="script.js"></script>                         <!-- chama o script em JS-->
+    <link rel="stylesheet" type="text/css" href="styles.css"> <!-- chama os a página de estilos CSS-->
+  </head>
+
+<body>
+  <div class="container fundo pad-home"> <!-- todo o container -->
+    <h1 class="logo-filmes borda">Salvador Movies App</h1> <!-- Título da página no corpo -->
+      <hr>
+        <table><!--NA TABELA ABAIXO É ONDE IRÁ SE INSERIR OS DADOS DOS FILMES-->
+          <tr>
+            <td> <!-- Início do formulário para inserir os dados dos filmes -->
+              <form onsubmit="event.preventDefault();onFormSubmit();" autocomplete="off">
+                <div>
+                  <label>Nome do Filme</label>
+                  <label class="validation-error hide" id="filmeValidationError">Este campo é obrigatorio.</label>
+                  <input type="text" name="filme" id="filme">
+                </div>
+
+                <div>
+                  <label>Resumo do Filme</label>
+                  <input type="text" name="resumo" id="resumo">
+                </div>
+
+                <div>
+                  <label>Nota</label>
+                  <input type="number" name="nota" id="nota">
+                </div>
+
+                <div>
+                  <label>Data de Lançamento</label>
+                  <input type="date" name="data" id="data">
+                </div>
+                    
+                <div>
+                  <input type="submit" value="Adicionar">
+                </div>
+              </form>
+            </td>
+            
+            <td> <!--NA TABELA ABAIXO É ONDE IRÁ APARECER OS DADOS DOS FILMES-->
+              <table id="employeeList">
+                <tbody><h4>LISTAGEM DE FILMES</h4></tbody>
+                <thead>
+                  <tr>
+                    <th>Nome do Filme</th>
+                    <th>Resumo do Filme</th>
+                    <th>Nota</th>
+                    <th>Data de Lançamento</th>
+                    <th>E/D</th> <!-- Editar/Excluir -->
+                  </tr>
+                </thead>
+              </table>
+            </td>
+          </tr>
+        </table>
+      <hr>
+    
+      <!--NO RODAPÉ ABAIXO IRÁ APARECER UM LOGO DO Salvador Co-->
+    <footer class="fundo borda text-footer">by 
+      <img src="./imagens/logo_pp.jpg" alt="Salvador Co">
+    </footer>
+
+  </div>
+        
+</body>
+</html>
