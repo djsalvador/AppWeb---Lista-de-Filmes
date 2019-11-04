@@ -1,0 +1,21 @@
+Aplicativo web, composto apenas de html, css e JavaScript.
+
+Lista de filmes com as seguintes funcionalidades principais: 
+
+- Listar filmes cadastrados
+- Adicionar, editar e remover filmes
+
+Os cadastros devem conter obrigatoriamente:
+- Nome, 
+- resumo, 
+- nota e 
+- data de lançamento
+
+OBS.1: O projeto completo com a pasta de imagens encontra-se compactado.
+
+OBS.2: Esse aplicativo não está funcional e serve apenas para demonstrar as
+habilidades básicas deste aprendiz de desenvolvedor.
+
+OBS.3: Neste código não há a possibilidade de salvar (LocalStorage por exemplo)
+
+
